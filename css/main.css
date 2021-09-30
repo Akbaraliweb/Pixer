@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open Sans;
+}
+
+ /* site-header */
+ 
+header{
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 8px;
+    padding-top: 15px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.conteiner-header{
+    display: flex;
+    list-style-type: none;
+}
+
+.conteiner-header-img{
+    margin-top: 15px;
+    color: black;
+}
+
+.conteiner-header-img:hover{
+    color: #4d3f3f;
+}
+
+.conteiner-header-a{
+    font-size: 16px;
+    color: black;
+    margin-left: 32px;
+    text-decoration: none;   
+}
+
+.conteiner-header-a:hover{
+      background-color: #191919;
+      color: white;
+      padding: 16px;
+}
+
+.conteiner-header-nomber{
+    background-color: #00BAFC;
+    color: white;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.conteiner-header-nomber:hover{
+    background-color: #00BAFC99;
+}
+  
+
+   /* site-main */
+
+
+main{
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-main{
+    display: flex; 
+    margin-top: 80px;
+}
+
+.site-main-div{
+    margin-left: 80px;
+}
+
+h2{
+    font-size: 32px;
+    width: 470px;
+    margin-bottom: 16px;
+}
+
+.site-main-div-p{
+    width: 465px;
+    padding-bottom: 16px;
+}
+
+.site-main-div-a{
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #00BAFC;
+    background-color: #00BAFC;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.site-main-div-a:hover{
+   background-color: #00BAFC99;
+}
+
+.site-main-div-img{
+    background-image: url('../image/maxresdefault\ 1.svg');
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    padding: 76px 154px;
+    width: 458px;
+    height: 258px;
+}
+
+.site-service-text{
+    margin-top: 136px;
+    text-align: center;
+    width: 320px;
+}
+
+.site-service{
+    text-align: center;
+    width: 320px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.site-service:hover{
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    text-align: center;
+    margin-left: 580px;
+    font-size: 24px;
+}
+
+.site-service-p{
+    width: 719px;
+    margin-left: 300px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.site-service-div{ 
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;   
+}
+
+.site-service-div-p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lorem{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.grafik-site{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content:space-evenly;
+}
+
+.order-service{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.order-service-a{
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    background-color: #00BAFC;
+}
+
+.order-service-a:hover{
+    background-color: #00BAFC99;
+}
+
+.order-service-div{
+    margin-top: 120px;
+}
+
+.h2{
+   margin-left: 470px; 
+}
+
+.order-service-div-p{
+    text-align: center;
+    margin-left: 250px;
+    width: 719px;
+}
+
+.work-div{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.lorem-p{
+    width: 480px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.work-div-first{
+    margin-top: 90px;
+    margin-left: 32px;
+}
+
+.work-div-a{
+    margin-left: 540px;
+    margin-top: 100px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    color: white;
+}
+
+.work-div-a:hover{
+    background-color: #00BAFC99;
+}
+
+.register-div{
+    max-width: 1300px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00BAFC;
+    height: 460px;
+}
+
+.register-first{
+    padding-top: 56px;
+}
+
+.register-h2{
+    margin-left: 510px;
+    color: white;
+}
+
+.register-div-p{
+    margin-left: 290px;
+    text-align: center;
+    width: 719px;
+    color: white;
+}
+
+.register-first-div{
+    border-radius: 5px;
+    padding: 24px;
+    text-align: center;
+    margin-left: 476px; 
+    width: 348px;
+    height: 320px;
+    background-color: white;
+    border: 2px solid #00BAFC;
+}
+
+.register-form{
+    display: block;
+    margin-top: 16px;
+    padding: 12px 95px 24px 24px;
+}
+
+.first-form{
+    margin-bottom: 24px;
+}
+
+.register-button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #25abdb;
+}
+
+.register-button:hover{
+    background-color: #00BAFC;
+}
+ 
+
+ /* site-footer */
+
+
+footer{
+    max-width: 1290px;
+    height: 338px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 223px;
+    background-color: black;
+}
+
+.site-footer{
+    display: flex;
+    margin-top: 56px;
+}
+
+.site-footer-div{
+    margin-top: 56px;
+}
+
+.site-items-a{
+    text-decoration: none;
+    color: white;
+}
+
+.site-items-a:hover{
+    color: #00BAFC;
+}
+
+h4{
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list-h4{
+    margin-left: 40px;
+}
+
+.list-div{
+    margin-top: 56px;
+}
+
+.site-footer-div-p{
+    margin-left: 100px;
+    color: white;
+    width: 320px;
+}
+
+.site-footer-list{
+    margin-top: 56px;
+    margin-left: 100px;
+}
+
+.site-list{
+    width: 98px;
+    margin-left: 100px;
+}
+
+.site-list-first-a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.site-list-second-a{
+    margin-bottom: 10px;
+}
+
+.list-img{
+    align-items: center;
+    margin-right: 10px;
+}
+
+.site-items{
+    margin-bottom: 8px;
+}
+
+.site-list-second-img{
+    color: white;
+}
+
+.site-list-second-img:hover{
+    color:  #00BAFC;
+}
